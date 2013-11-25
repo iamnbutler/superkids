@@ -82,6 +82,10 @@ header li { float: left; }
 .panel-2 h1 { margin: 0 auto; font-size: 24px; font-weight: 300; }
 .panel-2 h2 { font-weight: 400; color: #009cff; }
 
+.panel-3 { padding: 48px 0px; background-color: #00a14b; }
+.panel-3 h1 { font-size: 12px; color: white; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 24px; }
+.panel-3 p.quote { font-weight: 300; font-size: 24px; color: white; max-width: 600px; margin: 0 auto; text-align: center; line-height: 1.5; margin-bottom: 18px; padding: 0 24px; }
+
 .cf { content: ""; display: table; clear: both; }
 
 .row { width: 600px; margin: 0 auto; }

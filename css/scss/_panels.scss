@@ -1,5 +1,6 @@
 // Colors
 $blue: #009CFF;
+$green: #00A14B;
 
 // --------------
 // Panels
@@ -141,7 +142,6 @@ $blue: #009CFF;
     border-radius: 50%;
     background-color: $blue;
   }
-
   // Type
 
   h1 {
@@ -153,6 +153,34 @@ $blue: #009CFF;
   h2 {
     font-weight: 400;
     color: $blue;
+  }
+}
+
+// The Problem (Panel 3)
+
+.panel-3 {
+  padding: 48px 0px;
+  background-color: $green;
+  // Type
+
+  h1 {
+    font-size: 12px;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  p.quote {
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    padding: 0 24px;
   }
 }
 
