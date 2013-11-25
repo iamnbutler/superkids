@@ -40,6 +40,14 @@ header li { float: left; }
 
 .right { float: right; }
 
+.toc { position: relative; }
+.toc.open { background-color: #FFF; }
+.toc.open > a { color: #009cff; }
+.toc.open ol { display: block; }
+.toc ol { list-style: decimal-leading-zero inside; padding: 16px 0; position: absolute; top: 60px; left: 0; display: none; width: 400px; background-color: #FFF; }
+.toc ol li { width: 100%; color: #777; padding: 12px 24px; text-transform: capitalize; }
+.toc ol li::marker { padding-right: 6px; }
+
 .arrow { background-color: #F6F6F6; position: fixed; z-index: 7; padding: 5px 0; width: 50px; height: 40px; font-size: 40px; }
 .arrow.top { right: 20px; bottom: 80px; }
 .arrow.bottom { right: 20px; bottom: 20px; }

@@ -14,6 +14,9 @@ body {
   background-position: center center;
 }
 
+// Colors
+$blue: #009CFF;
+
 // ---------------
 // Header
 // ---------------
@@ -63,6 +66,40 @@ header {
 // ---------------
 // Navigation Elements
 // ---------------
+
+// == Table of Contents ==
+
+.toc {
+  position: relative;
+  &.open {
+    background-color: #FFF;
+    & > a {
+      color: $blue;
+    }
+    ol {
+      display: block;
+    }
+  }
+  ol {
+    list-style: decimal-leading-zero inside;
+    padding: 16px 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+    width: 400px;
+    background-color: #FFF;
+    li {
+      width: 100%;
+      color: #777;
+      padding: 12px 24px;
+      text-transform: capitalize;
+      &::marker {
+        padding-right: 6px;
+      }
+    }
+  }
+}
 
 // === Arrows ===
 
