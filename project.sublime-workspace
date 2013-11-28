@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mes",
+				"messages_url"
+			],
+			[
+				"ui-d",
+				"ui-nav-dropdown"
+			],
+			[
+				"ui-",
+				"ui-nav-dropdown"
+			],
+			[
+				"user-",
+				"user-link"
+			],
+			[
+				"header",
+				"header-margin"
+			],
+			[
+				"header-",
+				"header-inner-height"
+			],
+			[
+				"ui-down-ar",
+				"ui-down-arrow-hover"
+			],
+			[
+				"sub",
+				"subhead-height"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 162.0,
+		"selected_items":
+		[
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Admin/Desktop/Web/Repositories/kaishi/css/scss/_reset.scss",
+		"/Users/Admin/Desktop/Web/Repositories/kaishi/css/scss/_typography.scss",
+		"/Users/Admin/Desktop/Web/Repositories/kaishi/index.html",
+		"/Users/Admin/Desktop/Dropbox/Work/Teaching Kids to Code/Site/index.html",
+		"/Users/Admin/Desktop/Dropbox/Work/Teaching Kids to Code/Site/readme.md",
+		"/Users/Admin/Desktop/a2/css/style.css",
+		"/Users/Admin/Desktop/a2/index.html",
+		"/Volumes/nathanbu/Sites/facs1939/a2/index.html",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/layouts/application.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/models/user.rb",
+		"/Users/Admin/Desktop/Web/Repositories/lb_header/css/style.css",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/layouts/_menu.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/modules/_welcome.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/user/welcome.html.erb",
+		"/Volumes/www.nbutlerdesign.com-1/public_html/sites/jalisahenry/css/style.css",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/ad/_hot_leaderboard_ad.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/ad/_ex_hot_leaderboard_ad.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/layouts/_user.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/user/_thumbnail.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/forum/show.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/application/_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/layouts/_user_meta.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/assets/stylesheets/application.css.scss.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/forum/_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/contest/entries.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/search/_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/user/_feed_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/config/locales/en.yml",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/look/_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/user/_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/application/_sex_filters.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/search/looks.html.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/views/layouts/_assets.mobile.erb",
+		"/Users/Admin/Desktop/Web/Repositories/lookbook/app/assets/stylesheets/application.scss.erb",
+		"/Users/Admin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Admin/Desktop/Web/Repositories/lookbook",
+			"/Users/Admin/Desktop/Web/Repositories/lookbookcommonco"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			", :class => \"no_underline\"",
+			"ui-dro",
+			"messages_co",
+			"cache",
+			"cached_messages_count",
+			"00;",
+			"999",
+			"logged",
+			"0",
+			"<li>",
+			">",
+			"block",
+			"container",
+			"header",
+			"-%>",
+			"period",
+			"-%>",
+			"filter",
+			")%></",
+			"[<a href=\"http://lookbook.nu/help#karma_filter\">?</a>]",
+			"selected",
+			"newness",
+			"global",
+			"region",
+			"common.filters",
+			"filt",
+			"filters",
+			"full",
+			"bold"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.809626140807,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"en.",
+				"config/locales/en.yml"
+			],
+			[
+				"wel",
+				"app/views/modules/_welcome.html.erb"
+			],
+			[
+				"welcome",
+				"app/views/user/welcome.html.erb"
+			],
+			[
+				"filt",
+				"app/views/look/_filters.html.erb"
+			],
+			[
+				"fil",
+				"app/views/application/_filters.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 124.0,
+	"status_bar_visible": true
+}
