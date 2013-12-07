@@ -1,12 +1,23 @@
-// Colors
-$blue: #009CFF;
-$green: #00A14B;
+// --------------
+// Dividers
+// --------------
+
+.section-divider {
+  &.white {
+    padding: 2px 0;
+    border-top: 1px dashed #CCC;
+    border-bottom: 1px dashed #CCC;
+    margin: 106px auto;
+    width: 460px;
+  }
+}
 
 // --------------
 // Panels
 // --------------
 
 .panel {
+  padding: 60px 0;
   width: 100%;
   &:first-child {
     border-top: 60px solid #F5F5F5;
@@ -16,29 +27,32 @@ $green: #00A14B;
 // Title (Panel-1)
 
 .panel-1 {
-  background-color: $blue;
+  background-image: url(https://dl.dropboxusercontent.com/u/68882376/img/greyzz_%402X.png);
+  -webkit-background-size: 160px;
+  background-size: 160px;
+  background-color: #F5F5F5;
   border-bottom: 1px solid #EEE;
-  padding: 60px 0;
   position: relative;
   z-index: 3;
+  padding: 160px 0;
   
   // Text
 
   h1 {
-    color: white;
+    color: $blue;
     font-size: 48px;
   }
 
   h2 {
     text-align: center;
     font-size: 30;
-    color: rgba(255,255,255,0.8);
+    color: $blue;
     padding-top: 24px;
     font-weight: 300;
   }
 
   .scroll {
-    color: white;
+    color: $blue;
     text-align: center;
     text-transform: uppercase;
     padding-top: 80px;
@@ -47,7 +61,7 @@ $green: #00A14B;
   }
 
   .scroll-arrow {
-    color: white;
+    color: $blue;
     font-size: 24px;
     position: absolute;
     bottom: 10px;
@@ -121,15 +135,18 @@ $green: #00A14B;
 
 .panel-2 {
   .intro {
-    padding: 66px 48px;
+    padding: 26px 0;
+    h1.space {
+      margin-top: 24px;
+    }
     p {
       text-align: center;
       color: #555;
-      max-width: 460px;
+      max-width: 580px;
       margin: 0 auto;
-      margin-top: 16px;
-      font-size: 13px;
-      line-height: 21px;
+      margin-top: 22px;
+      font-size: 18px;
+      line-height: 1.6;
       font-weight: 400;
     }
   }
@@ -147,7 +164,6 @@ $green: #00A14B;
   h1 {
     margin: 0 auto;
     font-size: 24px;
-    font-weight: 300;
   }
 
   h2 {
@@ -164,10 +180,7 @@ $green: #00A14B;
   // Type
 
   h1 {
-    font-size: 12px;
     color: white;
-    letter-spacing: 4px;
-    text-transform: uppercase;
     margin-bottom: 24px;
   }
 
@@ -184,33 +197,473 @@ $green: #00A14B;
   }
 }
 
-// --------------
-// Columns
-// --------------
+// The Solution (Panel 4)
 
-.cf {
-  content: "";
-  display: table;
-  clear: both;
+.panel-4 {
+  border-bottom: 4px dashed $blue;
+  h1 {
+    color: $blue;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: $blue;
+  }
+  .solution-section {
+    .row {
+      width: 740px;
+    }
+    p {
+      font-size: 19px;
+      line-height: 1.8;
+      color: #555;
+      margin: 0 auto;
+      margin-top: 24px;
+    }
+  }
+  .panel-4-selector {
+    margin-top: 40px;
+    div {
+      border-top: 4px solid #EFEFEF;
+      height: 180px;
+      padding: 32px 0px;
+      text-align: center;
+      background-color: #F9F9F9;
+      h2 {
+        color: black;
+        font-size: 20px;
+        width: 200px;
+        margin: 0 auto;
+        line-height: 1.4; 
+      }
+      p {
+        font-size: 12;
+        line-height: 1.5;
+        color: #666;
+        max-width: 220px;
+        margin: 0 auto;
+        margin-top: 32px;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: #F4F4F4;
+      }
+    }
+  }
 }
 
-.row {
-  width: 600px;
-  margin: 0 auto;
+// Infographic
+
+.jobs-infographic {
+  display: none;
+  width: 240px;
+  height: 180px;
+  margin: 20px auto;
+  position: relative;
+  &.active {
+    display: block;
+  }
+  .base {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    height: 6px;
+    width: 160px;
+    background-color: #d1d3d4;
+    -webkit-animation: pjobsbase 0.95s linear;
+  }
+  .chart-text {
+    position: absolute;
+    bottom: 118px;
+    font-size: 12px;
+    left: 14px;
+    color: #999;
+  }
+  .software-devs {
+    position: absolute;
+    bottom: 25px;
+    height: 132px;
+    right: 60px;
+    width: 24px;
+    background-color: $green;
+    -webkit-animation: pjobsswd 0.95s linear;
+  }
+  .programming-jobs {
+    position: absolute;
+    bottom: 25px;
+    height: 122px;
+    left: 108px;
+    width: 24px;
+    background-color: $blue;
+    -webkit-animation: pjobsprg 0.95s linear;
+  }
+  .average-jobs {
+    position: absolute;
+    bottom: 25px;
+    height: 100px;
+    left: 60px;
+    width: 24px;
+    background-color: #bcbec0;
+    -webkit-animation: pjobsavg 0.95s linear;
+  }
 }
 
-.column {
-  // Remember to clearfix the element above the columns
-  float: left;
+@-webkit-keyframes pjobsbase {
+  0% { width: 0px; }
+
+  63% { width: 160px; }
+
+  100% { width: 160px; }
 }
 
-// 60/40 2 columns
+@-webkit-keyframes pjobsavg {
+  0% { height: 0px; }
 
-.column-60 {
-  width: 58%;
-  margin-right: 4%;
+  37% { height: 0px; }
+
+  68% { height: 100px; }
+
+  100% { height: 100px; }
 }
 
-.column-40 {
-  width: 38%;
+@-webkit-keyframes pjobsprg {
+  0% { height: 0px; }
+
+  47% { height: 0px; }
+
+  78% { height: 122px; }
+
+  100% { height: 122px; }
+}
+
+@-webkit-keyframes pjobsswd {
+  0% { height: 0px; }
+
+  68% { height: 0px; }
+
+  100% { height: 132px; }
+}
+
+.salary-infographic {
+  display: none;
+  width: 240px;
+  height: 180px;
+  margin: 20px auto;
+  position: relative;
+  &.active {
+    display: block;
+  }
+  .base {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    height: 6px;
+    width: 160px;
+    background-color: #d1d3d4;
+    -webkit-animation: pjobsbase 0.95s linear;
+  }
+  .chart-text {
+    position: absolute;
+    bottom: 118px;
+    font-size: 12px;
+    left: 14px;
+    color: #999;
+  }
+  .software-devs {
+    position: absolute;
+    bottom: 25px;
+    height: 160px;
+    right: 60px;
+    width: 24px;
+    background-color: $green;
+    -webkit-animation: psalswd 0.95s linear;
+  }
+  .programming-jobs {
+    position: absolute;
+    bottom: 25px;
+    height: 114px;
+    left: 108px;
+    width: 24px;
+    background-color: $blue;
+    -webkit-animation: psaluni 0.95s linear;
+  }
+  .average-jobs {
+    position: absolute;
+    bottom: 25px;
+    height: 80px;
+    left: 60px;
+    width: 24px;
+    background-color: #bcbec0;
+    -webkit-animation: psalavg 0.95s linear;
+  }
+}
+
+@-webkit-keyframes psalavg {
+  0% { height: 0px; }
+
+  37% { height: 0px; }
+
+  68% { height: 80px; }
+
+  100% { height: 80px; }
+}
+
+@-webkit-keyframes psaluni {
+  0% { height: 0px; }
+
+  47% { height: 0px; }
+
+  78% { height: 114px; }
+
+  100% { height: 114px; }
+}
+
+@-webkit-keyframes psalswd {
+  0% { height: 0px; }
+
+  68% { height: 0px; }
+
+  100% { height: 160px; }
+}
+
+.gender-infographic {
+  display: none;
+  width: 240px;
+  height: 180px;
+  margin: 20px auto;
+  position: relative;
+  &.active {
+    display: block;
+  }
+  .base {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    height: 6px;
+    width: 160px;
+    background-color: #d1d3d4;
+    -webkit-animation: pjobsbase 0.95s linear;
+  }
+  .chart-text {
+    position: absolute;
+    bottom: 118px;
+    font-size: 12px;
+    left: 14px;
+    color: #999;
+  }
+  .software-devs {
+    position: absolute;
+    bottom: 25px;
+    height: 160px;
+    right: 80px;
+    width: 24px;
+    background-color: $green;
+    -webkit-animation: pgenmale 0.95s linear;
+  }
+  .programming-jobs {
+    position: absolute;
+    bottom: 25px;
+    height: 40px;
+    left: 80px;
+    width: 24px;
+    background-color: $blue;
+    -webkit-animation: pgenfemale 0.95s linear;
+  }
+}
+
+@-webkit-keyframes pgenmale {
+  0% { height: 0px; }
+
+  50% { height: 0px; }
+
+  75% { height: 160px; }
+
+  100% { height: 160px; }
+}
+
+@-webkit-keyframes pgenfemale{
+  0% { height: 0px; }
+
+  68% { height: 40px; }
+
+  100% { height: 40px; }
+}
+
+// The Process (Panel-5)
+
+.panel-5 {
+  background-color: #F5F5F5;
+  background-image: url(https://dl.dropboxusercontent.com/u/68882376/img/greyzz_%402X.png);
+  -webkit-background-size: 160px;
+  background-size: 160px;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+  
+  ul.steps {
+    position: relative;
+    height: 720px;
+    &.active {
+      .line-1 {
+        -webkit-animation: lineone 1.2s linear;
+        -webkit-animation-fill-mode: forwards;
+      }
+
+      .line-2 {
+        -webkit-animation: linetwo 1.2s 1.2s linear;
+        -webkit-animation-fill-mode: forwards;
+      }
+
+      .line-3 {
+        -webkit-animation: lineone 1.2s 2.4s linear;
+        -webkit-animation-fill-mode: forwards;
+      }
+
+      .line-4 {
+        -webkit-animation: linetwo 1.2s 3.6s linear;
+        -webkit-animation-fill-mode: forwards;
+      }
+    }
+  }
+
+  .step {
+    position: absolute;
+    background-color: white;
+    width: 140px;
+    padding: 30px 20px;
+    border: 1px solid #CCC;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 24px;
+    z-index: 2;
+  }
+
+  .step-2 {
+    right: 0;
+    top: 0px;
+  }
+
+  .step-3 {
+    right: 0;
+    top: 280px;
+
+  }
+
+  .step-4 {
+    top: 280px;
+  }
+
+  .step-5 {
+    top: 500px;
+  }
+
+  .line {
+    position: absolute;
+    border-radius: 4px;
+    background-color: $blue;
+    z-index: 1;
+  }
+
+  .line-1 {
+    left: 60px;
+    top: 70px;
+    width: 0px;
+    height: 8px;
+  }
+
+  .line-2 {
+    right: 80px;
+    top: 80px;
+    height: 0px;
+    width: 8px;
+  }
+
+  .line-3 {
+    right: 80px;
+    top: 320px;
+    height: 8px;
+    width: 0px;
+  }
+
+  .line-4 {
+    top: 340px;
+    left: 100px;
+    width: 8px;
+    height: 0px;
+  }
+}
+
+@-webkit-keyframes lineone {
+  0% { width: 0px; }
+
+  100% { width: 600px; }
+}
+
+@-webkit-keyframes linetwo {
+  0% { height: 0px; }
+
+  100% { height: 300px; }
+}
+
+// Success Stories
+
+.panel-6 {
+  border-top: 4px dashed $blue;
+  background-color: white;
+  h1 {
+    color: $blue;
+  }
+  h1.main {
+    color: white;
+    background-color: $blue;
+    padding: 10px 4px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .story {
+    h1 {
+      color: $green;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: $blue;
+      text-align: center;
+    }
+
+    a {
+      color: $blue;
+    }
+
+    p {
+      margin: 16px 0;
+      font-size: 20px;
+      line-height: 1.7;
+      color: #555;
+    }
+    padding: 40px 0;
+  }
+}
+
+.panel-7 {
+  border-top: 4px dashed $green;
+  h1 {
+    color: $blue;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  ul {
+    list-style: circle;
+    width: 460px;
+    margin: 0 auto;
+    li {
+      font-size: 24px;
+      padding: 12px 0;
+      color: #555;
+      line-height: 1.4;
+    }
+  }
 }

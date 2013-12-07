@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <ul>
+      <ul id="navigation">
         <li class="logo"></i>Teaching Kids To Code</li>
         <li class="get-involved right">
           <a href="#get-involved">Get Involved</a>
@@ -31,14 +31,14 @@
         <li class="toc right">
           <a href="#toc" class="toc-target"><i class="fa fa-bars"></i> Table of Contents</a>
           <ol class="toc-list">
-            <li>Why teach kids to code?</li>
-            <li>The Problem</li>
-            <li>The Solution: Greater Job Prospects</li>
-            <li>The Solution: Making more money</li>
-            <li>The Solution: Fixing gender imbalance</li>
-            <li>Success Stories</li>
-            <li>The Process</li>
-            <li>Getting Involved</li>
+            <a href="#intro"><li>Why teach kids to code?</li></a>
+            <a href="#problem"><li>The Problem</li></a>
+            <a href="#panel-4-jobs"><li>The Solution: Greater Job Prospects</li></a>
+            <a href="#panel-4-salary"><li>The Solution: Making more money</li></a>
+            <a href="#panel-4-gender"><li>The Solution: Fixing gender imbalance</li></a>
+            <a href="#process"><li>The Process</li></a>
+            <a href="#stories"><li>Success Stories</li></a>
+            <a href="#involved"><li>Getting Involved</li></a>
           </ol>
         </li>
       </ul>
@@ -46,44 +46,151 @@
     <div class="wrapper">
       <section class="title panel panel-1">
         <h1>Teaching Kids To Code</h1>
-        <p class="scroll">Scroll to Continue</p>
+        <p class="scroll expanded-caps">Scroll to Continue</p>
         <i class="scroll-arrow fa fa-angle-down fw"></i>
       </section>
       <section class="panel panel-2">
         <div class="intro">
-          <h1>Why teach kids to code?</h1>
+          <h1 class="thin-headline">Why teach kids to code?</h1>
           <p>Learning to code is part of the process of future proofing our children. In the coming years jobs will require more technical knowledge, and jobs in the areas of I.T. and programming will expand greatly.</p>
+          <h1 class="thin-headline space">Wouldn't it be expensive for schools to teach code?</h1>
+          <p>Programming doesn't typically require any special software or hardware. Any school with a computer lab can be retrofitted easily to teach kids how to code. The developer culture also includes many open-source (free) tools to help beginners get started, and many professional developers swear by free-to-use software (libraries) like Ruby on Rails and jQuery.</p>
         </div>
       </section>
-      <section class="panel panel-3">
-        <h1>The Problem</h1>
+      <section class="panel panel-3" id="problem">
+        <h1 class="small expanded-caps">The Problem</h1>
         <p class="quote">Students lack exposure to programming and development concepts in elementary and secondary schooling.</p>
         <p class="quote">By missing out on these experiences students lose chances to gain advanced problem solving and technical skills.</p>
       </section>
       <section class="panel panel-4">
-        
-        <div class="row cf">
-          <div class="column column-60">
-            <h2>Critical Thinking</h2>
-            <p></p>
+        <div class="intro">
+          <h1 class="small expanded-caps">The Solution</h1>
+          <div class="row three-col panel-4-selector">
+            <div class="column">
+              <h2 class="thin-headline">Getting a great job right out of school</h2>
+              <p>Learn how students who are able to code can get great jobs right out of school.</p>
+            </div>
+            <div class="column">
+              <h2 class="thin-headline">Making a better salary in a tough economy</h2>
+              <p>In a time where money is tight for many, coding jobs pay well, yet many jobs are unfilled.</p>
+            </div>
+            <div class="column">
+              <h2 class="thin-headline">Blazing the trail for female programmers</h2>
+              <p>Learn how teaching kids to code in school can help more women pick up programming jobs.</p>
+            </div>
           </div>
-          <div class="column column-40">
-            <div class="img computer"></div>
-          </div>
+
+          <div class="section-divider white"></div>
+          <section class="solution-section" id="panel-4-jobs">
+            <h2 class="thin-headline">Getting a great job right out of school</h2>
+            <div class="row two-col">
+              <div>
+                <p>The U.S. Bureau of Labor Statistics estimates that by 2020 all I.T. fields will grow by an average of 22%. Software developers are the highest estimated increase, at around a 32% increase in the next 7-8 years. Kids educated in these fields will have more jobs available to them.</p>
+              </div>
+              <div>
+                <div class="infographic jobs-infographic">
+                  <div class="chart-text">100%</div>
+                  <div class="software-devs"></div>
+                  <div class="programming-jobs"></div>
+                  <div class="average-jobs"></div>
+                  <div class="base"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="section-divider white"></div>
+          <section class="solution-section" id="panel-4-salary">
+            <h2 class="thin-headline">Making a better salary in a tough economy</h2>
+            <div class="row two-col">
+              <div>
+                <p>In the same USBLS study they take a look at the average salaries of people in the I.T. industry compared to other jobs. The ones related to the I.T. industry were almost $69k, significantly more than those of average university grads and those without degrees.</p>
+              </div>
+              <div>
+                <div class="infographic salary-infographic">
+                  <div class="chart-text">100%</div>
+                  <div class="software-devs"></div>
+                  <div class="programming-jobs"></div>
+                  <div class="average-jobs"></div>
+                  <div class="base"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="section-divider white"></div>
+          <section class="solution-section" id="panel-4-gender">
+            <h2 class="thin-headline">Blazing the Trail for Female Programmers</h2>
+            <div class="row two-col">
+              <div>
+                <p>Currently in the industry the predominant gender is overwhelmingly male. By introducing code at younger ages in school, girls that enjoy code will get the chance to try it before it becomes seen as a male dominated field in the later years of school. I think implementing this would quickly begin decreasing the gender gap.</p>
+              </div>
+              <div>
+                <div class="infographic gender-infographic">
+                  <div class="software-devs"></div>
+                  <div class="programming-jobs"></div>
+                  <div class="base"></div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+      </section>
+      <section class="panel panel-5" id="process">
+        <h1 class="small expanded-caps" id="theprocess">The Process</h1>
+        <div class="row">
+          <ul class="steps">
+            <li class="step step-1">Develop a curriculum for schools to follow</li>
+            <li class="step step-2">Find backers sponsor the cause and teachers who are willing to take it up</li>
+            <li class="step step-3">Convince school boards why it is needed</li>
+            <li class="step step-4">Test curriculum in progressive schools</li>
+            <li class="step step-5">Begin integrating programming into the regular school curriculum</li>
+            <li class="line line-1"></li>
+            <li class="line line-2"></li>
+            <li class="line line-3"></li>
+            <li class="line line-4"></li>
+          </ul>
+        </div>
+      </section>
+      <section class="panel panel-6" id="stories">
+        <h1 class="thin-headline main">Success Stories</h1>
+        <section class="story story-1">
+          <div class="row">
+            <h1 class="thin-headline">A 12 year-old app developer</h1>
+            <p>At 12 years old, Thomas Suarez has already worked with programming languages such as <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>, <a href="http://en.wikipedia.org/wiki/C%2B%2B">C</a> and <a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>.</p>
+            <p>At the time of his <a href="http://www.ted.com/talks/thomas_suarez_a_12_year_old_app_developer.html" target="_blank">TED talk</a> he had already published two applications in the app store and begun helping students in his school to learn how to build apps. If anyone is a testemant to how far kids can go in programming, Thomas is a shining example.</p>
+            <p>"I’ve started an app club at school… any student at my school can come and learn how to design an app. This allows me to share my experience with others."</p>
+
+            <h2>Learning Difficulties</h2>
+            <p>Thomas talks about his experience in learning how to code, “For soccer, you can join a soccer team. For violin you can get lessons. But where do you go if you want to learn how to make an app? Not many parents have made an app before." He expresses frustration with not having a way to learn how to code in school. "A lot of kids these days like to play games, but now they want to make them." Without proper education and opportunities in school though it becomes really difficult for students to learn how to code.</p>
+
+            <p>Today, Thomas is 14 years old. He has been given the chance to test advanced technologies like <a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CCsQFjAA&url=http%3A%2F%2Fwww.google.com%2Fglass%2Fstart%2F&ei=jiWcUrumCobfoASb54HABQ&usg=AFQjCNE_1rxbVEu695SrYg52nMIjyaitUw&bvm=bv.57155469,d.cGU">Google Glass</a>.</p>
+          </div>
+        </section>
+        <section class="story story-1">
+          <div class="row">
+            <h1 class="thin-headline">Teaching 4th graders to develop games</h1>
+            <p>The students of Aspen Creek’s 4th grade class are living proof that kids can begin learning this stuff this young. Using the software <a href="http://www.agentsheets.com/">Agentsheets</a> fourth-graders are learning to design and build their own video games. In the Youtube video “<a href="http://www.youtube.com/watch?v=5FSbA_YMsNE#t=85">Frogger Helps Teach Kids Computer Science</a>” Brian Geraghty, 4th Grade Teacher, explains how the kids had so much fun creating their own “Packman” and “Frogger” games. He makes the remark that the students picked up more in half a day than he did in the three day seminar that he attended on the software.</p>
+            <p>The Agentseets software focuses on teaching kids computational thinking. Rather than writing code directly with text, it allows the user to create “rules”, similar to functions and parameters passed in code, to allow users to create programs. In the video the kids work on their games independently and help each other solve problems as they encounter them, similarly to how students work in high school or even post-secondary computer science programs.</p>
+          </div>
+        </section>
+      </section>
+      <section class="panel panel-7" id="involved">
+        <h1 class="expanded-caps">Getting Involved</h1>
+        <ul>
+          <li>Do research to help officially recognize the need for programming in schools.</li>
+          <li>Work on developing open-source curriculum readily available to schools. </li>
+          <li>Speak to parents, teachers and school-boards on why educating children in code is so important.</li>
+          <li>Help find teachers with the required skill-sets to to early testing of any curriculum that is developed.</li>
+          <li>Start or fund a program to help teach kids to code in your own city!</li>
+        </ul>
       </section>
     </div>
 
-    <!-- Fixed content -->
-    <div class="arrow top">
-      <i class="fa fa-angle-up fa-fw"></i>
-    </div>
-    <div class="arrow bottom">
-      <i class="fa fa-angle-down fa-fw"></i>
-    </div>
-
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
+    
+    <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script src="js/waypoints.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -20,3 +20,15 @@ a {
 p {}
 
 li {}
+
+.thin-headline {
+	font-weight: 300;
+}
+
+.expanded-caps {
+	letter-spacing: 4px;
+    text-transform: uppercase;
+    &.small {
+    	font-size: 12px;
+    }
+}
